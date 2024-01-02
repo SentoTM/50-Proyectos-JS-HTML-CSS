@@ -87,7 +87,7 @@ nav ul li {
   text-transform: uppercase;
   color: white;
   margin: 40px 0;
-  transform: translateX(-100%);
+  transform: translateX(-200%);
   transition: transform 0.5s ease-in;
 }
 
