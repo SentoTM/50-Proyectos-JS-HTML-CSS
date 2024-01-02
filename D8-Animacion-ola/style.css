@@ -26,7 +26,7 @@ body {
 
   a {
     text-decoration: none;
-    color: lightblue;
+    color: lightcyan;
   }
 }
 
@@ -34,7 +34,7 @@ body {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: lightblue;
+  background: lightcyan;
   padding: 15px;
   font-size: 16px;
   border: 0;
@@ -70,6 +70,27 @@ body {
   }
   input:focus, input:valid {
     outline: 0;
+    border-bottom-color: lightcyan;
+  }
+
+  input:focus + label span,
+  input:valid + label span {
+    color: lightcyan;
+    transform: translateY(-30px);
+
+  }
+
+  label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+
+    span {
+      display: inline-block;
+      font-size: 18px;
+      min-width: 5px;
+      transition: 0.3s cubic-bezier(0.75, -0.5, 0.25, 1.5);
+    }
   }
 
 }
