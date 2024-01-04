@@ -8,5 +8,5 @@
  - Proyecto 6: [Animación scroll.](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D6-Animacion-Scroll/index.html)
  - Proyecto 7: [Página dividida.](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D7-SplitPage/index.html)
  - Proyecto 8: [Animación "ola" en form.](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D8-Animacion-ola/index.html)
- - Proyecto 9:
+ - Proyecto 9: [SoundBoard Batería (click)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D9-Sonidos-bateria/index.html)
  - En construcción...
