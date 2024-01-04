@@ -1,0 +1,36 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  background-image: url('https://www.katebackdrop.com/cdn/shop/files/BH1045827DKateStageRockAndRollDrumKitBackdrop.jpg?v=1688520187');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.btn {
+  background-color: rgba(214, 175, 175, 0.801);
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+}
+
+
+
+.btn:active {
+  outline: none;
+  transform: scale(1.6);
+  background-color: rgba(236, 93, 236, 0.8);
+  transition: background-color 0.1ms ease-in-out;
+
+}
