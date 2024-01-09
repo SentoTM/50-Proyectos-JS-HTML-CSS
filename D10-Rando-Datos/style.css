@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: azure;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+  padding: 50px 20px;
+  max-width: 100%;
+  width: 800px;
+  text-align: center;
+
+  h3 {
+    margin: 0;
+    opacity: 0.6;
+    letter-spacing: 2px;
+  }
+  .bgame{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+  }
+
+  .juegoBtn {
+    background-color: rgb(20, 85, 76);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.2);
+    padding: 14px 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .juegoBtn:focus{
+    outline: 0;
+  }
+
+  .juegoBtn:active {
+    transform: scale(0.95);
+  }
+}
