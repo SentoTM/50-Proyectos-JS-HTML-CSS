@@ -23,17 +23,45 @@ body {
   width: 800px;
   text-align: center;
 
-  h3 {
+  h2 {
+    font-size: 1.8em;
     margin: 0;
     opacity: 0.6;
     letter-spacing: 2px;
   }
   .bgame{
-    font-size: 16px;
-    letter-spacing: 1px;
     line-height: 40px;
     margin: 50px auto;
     max-width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .game-image {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; 
+    margin-left: 80px;
+  }
+  
+  /* Estilos para el nombre del juego */
+  
+  
+  /* Estilos para la información del juego */
+  .game-info {
+    h3 {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    font-size: 1.2em;
+    max-width: 400px; /* Puedes ajustar el ancho máximo del texto según tus preferencias */
   }
 
   .juegoBtn {
