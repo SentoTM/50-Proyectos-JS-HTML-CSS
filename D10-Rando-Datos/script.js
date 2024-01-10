@@ -5,8 +5,8 @@ const juegoBtn = document.getElementById('juegoBtn')
 juegoBtn.addEventListener('click', generateGame)
 generateGame()
 
-function generateGame() {
-  fetch(apiUrl)
+async function generateGame() {
+  await fetch(apiUrl)
   .then( res => res.text())
   .then(data => { 
     const parser = new DOMParser()
