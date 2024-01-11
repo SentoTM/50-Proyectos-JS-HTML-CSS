@@ -1,9 +1,9 @@
  * {
-    
+    box-sizing: border-box;
   }
 
   body {
-    background-color: blueviolet;
+    background-color: rgb(7, 77, 44);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,10 +13,10 @@
     margin: 0;
   }
 
-  .key {
-    border: 1px solid darkgrey;
-    background-color: white;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  .tecla {
+    border: 1px solid rgb(2, 39, 19);
+    background-color: rgb(144, 241, 176);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     display: inline-flex;
     align-items: center;
     font-size: 22px;
@@ -32,7 +32,16 @@
       left: 0;
       text-align: center;
       width: 100%;
-      color: #646262;
+      color: #ffffff;
+    }
+
+    .subtext {
+      position: absolute;
+      top: 25px;
+      left: 0;
+      text-align: center;
+      width: 100%;
+      color: #ffffff;
     }
   }
 
