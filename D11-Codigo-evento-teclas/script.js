@@ -1,1 +1,3 @@
-const
+window.addEventListener('keydown', (e) => {
+  
+})
