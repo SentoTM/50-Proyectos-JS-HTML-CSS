@@ -9,5 +9,6 @@
  - Proyecto 7: [Página dividida.](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D7-SplitPage/index.html)
  - Proyecto 8: [Animación "ola" en form.](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D8-Animacion-ola/index.html)
  - Proyecto 9: [SoundBoard Batería (click)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D9-Sonidos-bateria/index.html)
-  - Proyecto 9: [Juegos Aleatorios API BGG (xml)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D10-Rando-Datos/index.html)
+  - Proyecto 10: [Juegos Aleatorios API BGG (xml)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D10-Rando-Datos/index.html)
+  - Proyecto 11: [Juegos Aleatorios API BGG (xml)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D11-Codigo-evento-teclas/index.html)
  - En construcción...
