@@ -1,3 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500;700&display=swap');
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: wheat;
+}
+
+h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+
+.faq-contenedor {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4s ease;
+}
+
+.faq.active {
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+.faq.active::before, .faq.active::after{
+  content:'\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: greenyellow;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.3;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+
+}
+
+.faq.active::before {
+  color: royalblue;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
+}
+
+.faq-titulo {
+  margin: 0 35px 0 0;
+}
+
+.faq-texto {
+  display: none;
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-texto {
+  display: block;
 }
