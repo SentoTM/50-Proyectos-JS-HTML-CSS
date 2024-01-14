@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root {
+  --oriental-pink-50: #faf6f6;
+  --oriental-pink-100: #f4ecec;
+  --oriental-pink-200: #ecdcdc;
+  --oriental-pink-300: #ddc4c4;
+  --oriental-pink-400: #c9a0a0;
+  --oriental-pink-500: #bc8f8f;
+  --oriental-pink-600: #9c6666;
+  --oriental-pink-700: #825353;
+  --oriental-pink-800: #6d4747;
+  --oriental-pink-900: #5d3f3f;
+  --oriental-pink-950: #301f1f;
+
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--oriental-pink-300);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin:0;
+  overflow: hidden;
+}
+
+h3 {
+  color: var(--oriental-pink-950);
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.contenedor {
+  width: 500px;
+}
+
+textarea {
+  background-color: var(--oriental-pink-100);
+  color: var(--oriental-pink-950);
+  border: none;
+  display: block;
+  width: 100%;
+  height: 100px;
+  font-family: inherit;
+  padding: 10px;
+  margin: 0 0 20px;
+  font-size: 16px;
+}
+
+.opcion {
+  background-color: var(--oriental-pink-600);
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin: 0 5px 10px 0;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.opcion.highlight {
+  background-color: var(--oriental-pink-900);
+}

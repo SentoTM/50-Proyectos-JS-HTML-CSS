@@ -11,4 +11,6 @@
  - Proyecto 9: [SoundBoard Batería (click)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D9-Sonidos-bateria/index.html)
   - Proyecto 10: [Juegos Aleatorios API BGG (xml)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D10-Rando-Datos/index.html)
   - Proyecto 11: [Juegos Aleatorios API BGG (xml)](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D11-Codigo-evento-teclas/index.html)
+  - Proyecto 12: [FAQ Preguntas colapsables](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D12-FAQ-colapsa/index.html)
+  - Proyecto 13: [Seleccion Aleatoria de opciones](https://sentotm.github.io/50-Proyectos-JS-HTML-CSS/D13-Selector-Aleatorio/index.html)
  - En construcción...
